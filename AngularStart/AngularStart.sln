@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularStart", "AngularStart\AngularStart.csproj", "{3019B9D2-7E1B-4548-879C-B4D15E8B02BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2", "Api2\Api2.csproj", "{1F9BFCE5-E108-4496-9E99-837845F3C5DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3019B9D2-7E1B-4548-879C-B4D15E8B02BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3019B9D2-7E1B-4548-879C-B4D15E8B02BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3019B9D2-7E1B-4548-879C-B4D15E8B02BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3019B9D2-7E1B-4548-879C-B4D15E8B02BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9BFCE5-E108-4496-9E99-837845F3C5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9BFCE5-E108-4496-9E99-837845F3C5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9BFCE5-E108-4496-9E99-837845F3C5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9BFCE5-E108-4496-9E99-837845F3C5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html ng-app="app2">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="Scripts/angular.min.js"></script>
+    <script src="App/main.js"></script>
+    <script src="App/softwareController.js"></script>
+
+    <style>
+        body{
+            background-image: url(http://blog.dreamix.eu/wp-content/uploads/2015/06/hi-tech-apple-keyboard-mouse-hd-wallpaper-1508x706_c.jpg);
+        }
+    </style>
+</head>
+<body ng-controller="softwareController">
+    <div class="container">
+        <h1 class="text-center">Product Management 2.0</h1>
+        <h2 align="center">Lista de Software</h2>
+        <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive center-block" ng-src="{{software1.Url}}" alt="" />
+                        <div class="caption" align="center">
+                            <h3>{{software1.Name}}</h3>
+                            <p>{{software1.Year}}</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive center-block" ng-src="{{software2.Url}}" alt="" />
+                        <div class="caption" align="center">
+                            <h3>{{software2.Name}}</h3>
+                            <p>{{software2.Year}}</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive center-block" ng-src="{{software3.Url}}" alt="" />
+                        <div class="caption" align="center">
+                            <h3>{{software3.Name}}</h3>
+                            <p>{{software3.Year}}</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-sm-6 col-md-12" align="center">
+                <a href="Index.html" class="btn btn-primary" role="button">LISTA DE PRODUTOS APPLE</a>
+            </div>
+
+            </div>
+
+        </div>
+</body>
+</html>
