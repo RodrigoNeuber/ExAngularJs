@@ -16,47 +16,67 @@
     </style>
 </head>
 <body ng-controller="produtoController">
-    <div class="container">
-        <h1 class="text-center">Product Management 2.0</h1>
-        <h2 align="center">Lista de Produtos</h2>
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img class="img-responsive center-block" ng-src="{{produto1.Url}}" alt=""/>
-                    <div class="caption" align="center">
-                        <h3>{{produto1.Name}}</h3>
-                        <p>{{produto1.Category}}</p>
-                        <h6>R$ {{produto1.Price}},00</h6>
-                        <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img class="img-responsive center-block" ng-src="{{produto2.Url}}" alt="" />
-                    <div class="caption" align="center">
-                        <h3>{{produto2.Name}}</h3>
-                        <p>{{produto2.Category}}</p>
-                        <h6>R$ {{produto2.Price}},00</h6>
-                        <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img class="img-responsive center-block" ng-src="{{produto3.Url}}" alt="" />
-                    <div class="caption" align="center">
-                        <h3>{{produto3.Name}}</h3>
-                        <p>{{produto3.Category}}</p>
-                        <h6>R$ {{produto3.Price}},00</h6>
-                        <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
-                    </div>
-                </div>
-            </div>
+        <div class="container">
 
-            <div class="col-sm-6 col-md-12" align="center">
-                <a href="Index2.html" class="btn btn-primary" role="button">LISTA DE SOFTWARES APPLE</a>
+            <nav class="navbar navbar-inverse" role="banner">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a style="padding: 4px;" class="navbar-brand" href="index.html"><img style="width: 30%;" src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/apple-128.png" alt="logo"></a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">PRODUTOS APPLE</a></li>
+                            <li><a href="Index2.html">SOFTWARES APPLE</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive center-block" ng-src="{{produto1.Url}}" alt="" />
+                        <div class="caption" align="center">
+                            <h3>{{produto1.Name}}</h3>
+                            <p>{{produto1.Category}}</p>
+                            <h6>R$ {{produto1.Price}},00</h6>
+                            <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive center-block" ng-src="{{produto2.Url}}" alt="" />
+                        <div class="caption" align="center">
+                            <h3>{{produto2.Name}}</h3>
+                            <p>{{produto2.Category}}</p>
+                            <h6>R$ {{produto2.Price}},00</h6>
+                            <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img class="img-responsive center-block" ng-src="{{produto3.Url}}" alt="" />
+                        <div class="caption" align="center">
+                            <h3>{{produto3.Name}}</h3>
+                            <p>{{produto3.Category}}</p>
+                            <h6>R$ {{produto3.Price}},00</h6>
+                            <p><a href="#" class="btn btn-primary" role="button">Detalhes</a><a href="#" class="btn btn-default" role="button">Editar</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-12" align="center">
+                    <a href="Index2.html" class="btn btn-primary" role="button">LISTA DE SOFTWARES APPLE</a>
+
+                </div>
 </body>
 </html>
